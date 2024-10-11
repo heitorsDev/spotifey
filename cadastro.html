@@ -107,20 +107,28 @@
         <h1>Cadastro</h1>
         <div class="email">
             <div>Insira o usuário</div>
-            <input type="text" placeholder="e-mail">
+            <input type="text" placeholder="usuário" id="user">
+        </div>
+        <div class="email">
+            <div>Insira o email</div>
+            <input type="text" placeholder="email" id="email">
         </div>
         <div class="senha">
             <div>Senha</div>
-            <input class="senha-input"type="text" placeholder="senha">
+            <input id="senha" class="senha-input"type="text" placeholder="senha">
         </div>
         <div class="senha">
             <div>Confirmar senha</div>
-            <input class="senha-input"type="text" placeholder="senha">
+            <input id="confirmar-senha"class="senha-input"type="text" placeholder="senha">
         </div>
-        <button>
+        <span id="erro"></span>
+        <button id="submit" onclick="cadastrarUsuario()">
             Avançar
         </button>
+
         <div class="cadastrese-container">Já tem uma conta? <a  href="login.html"><span class="cadastrese">Login</span></a></div>
+        
     </div>
+    <script src="script/cadastro.js"></script>
 </body>
 </html>
