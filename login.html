@@ -108,18 +108,20 @@
     </div>
     <div class="sign-container">
         <h1>Login</h1>
-        <div class="email">
+        <div class="email" >
             <div>Insira o usuário</div>
-            <input type="text" placeholder="e-mail">
+            <input type="text"id="email" placeholder="e-mail">
         </div>
-        <div class="senha">
+        <div class="senha" >
             <div>Senha</div>
-            <input class="senha-input"type="text" placeholder="senha">
+            <input id="senha" class="senha-input"type="text" placeholder="senha">
         </div>
-        <button>
+        <span id="erro"></span>
+        <button onclick="loginUsuario()">
             Avançar
         </button>
         <div class="cadastrese-container">Já tem uma? <a  href="cadastro.html"><span class="cadastrese">Cadastre-se</span></a></div>
     </div>
+    <script src="script/login.js"></script>
 </body>
 </html>

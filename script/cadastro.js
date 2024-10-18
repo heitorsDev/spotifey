@@ -19,7 +19,7 @@ function cadastrarUsuario(){
         id: Date.now(),
         email: email,
         user: user,
-        senha: btoa(senha),
+        senha: senha,
         playlists:[],
 
     }
